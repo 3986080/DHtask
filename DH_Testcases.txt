@@ -1,0 +1,341 @@
+Feature: Title
+
+The Tilte of every site should be "UI Testing Site"
+
+Scenario: User open a site from Test site
+
+Given You on the homepage
+
+When You open any page from site
+
+Then You should see "UI Testing Site" as a Title
+
+IEEE 829
+Test case name: Title check
+Test case identifier: REQ-UI-01
+Version: 1.0
+Reference: REQ-UI-01
+Execution: Automated
+Description: This test check the title on every sites
+Precondition: Website available and working well
+Test Step: 1 Run REQ-UI-01.js
+Browser: latest chrome
+Input: UI Testing Site
+Output: Title checked
+Expected result: Title is "UI Testing Site"
+Test result: Pass or Failed
+
+----------------
+Feature: Logo
+
+The Logo of every site should be visible
+
+Scenario: User open a site from Test site
+
+Given You on the homepage
+
+When You open any page from site
+
+Then You should see the Logo on the page
+
+IEEE 829
+Test case name: Logo check
+Test case identifier: REQ-UI-02
+Version: 1.0
+Reference: REQ-UI-02
+Execution: Automated
+Description: This test check the company logo on every sites
+Precondition: Website available and working well
+Test Step: 1 Run REQ-UI-02.js
+Browser: latest chrome
+Input: company logo
+Output: Logo checked
+Expected result: Logo is the expected
+Test result: Pass or Failed
+-----------------------------
+Feature: Home button
+
+After click Home button navigated to the Home page
+
+Scenario: User open a site from Test site
+
+Given You somewhere on site 
+
+When You click Home page on site
+
+Then You should see "Welcome to the homeler Holding QA Department"
+
+IEEE 829
+Test case name: check Home button
+Test case identifier: REQ-UI-03
+Version: 1.0
+Reference: REQ-UI-03
+Execution: Automated
+Description: This test check click Home button than navigated to the Home page
+Precondition: Website available and working well
+Test Step: 1 Run REQ-UI-03.js
+Browser: latest chrome
+Input: click to Home page
+Output: "Welcome to the Docler Holding QA Department"
+Expected result: The expected output text
+Test result: Pass or Failed
+
+-------------------------------------------
+Feature: Home button is active
+
+After click Home button navigate to the Home page and Home button will active
+
+Scenario: User open a site from Test site
+
+Given You somewhere on site 
+
+When You click Home page on site
+
+Then You should see "Welcome to the Docler Holding QA Department"
+
+And You should see Home button is active
+
+
+IEEE 829
+Test case name: check Home page is active
+Test case identifier: REQ-UI-04
+Version: 1.0
+Reference: REQ-UI-04
+Execution: Automated
+Description: After click Home button navigate to the Home page and Home button will active
+Precondition: Website available and working well
+Test Step: 1 Run REQ-UI-04.js
+Browser: latest chrome
+Input: click to Home page
+Output: check "Welcome to the Docler Holding QA Department" and Home button active
+Expected result: The expected text and active Home button
+Test result: Pass or Failed
+-----------------------------
+Feature: Form button
+
+After click Form button navigated to the Form page
+
+Scenario: User open a site from Test site
+
+Given You somewhere on site 
+
+When You click to Form button on site
+
+Then You should see "Simple Form Submission"
+
+IEEE 829
+Test case name: check Form page
+Test case identifier: REQ-UI-05
+Version: 1.0
+Reference: REQ-UI-05
+Execution: Automated
+Description: This test check click Form button than navigated to the Form page
+Precondition: Website available and working well
+Test Step: 1 Run REQ-UI-05.js
+Browser: latest chrome
+Input: click to Form button
+Output: check "Simple Form Submission"
+Expected result: The expected text
+Test result: Pass or Failed
+
+-----------------------------
+Feature: Form button is active
+
+After click Form button navigated to the Form page and Form button will active
+
+Scenario: User open a site from Test site
+
+Given You somewhere on site 
+
+When You click to Form button on site
+
+Then You should see "Simple Form Submission"
+
+And You should see Form button is active
+
+IEEE 829
+Test case name: check Form page
+Test case identifier: REQ-UI-06
+Version: 1.0
+Reference: REQ-UI-06
+Execution: Automated
+Description: This test check click Form button than navigated to the Form page and Form button will active
+Precondition: Website available and working well
+Test Step: 1 Run REQ-UI-06.js
+Browser: latest chrome
+Input: click to Form button
+Output: check "Simple Form Submission"
+Expected result: The expected text and Form button is active
+Test result: Pass or Failed
+
+-------------------------------------------
+Feature: 404 HTTP response code
+
+After click on the Error button should get a 404 HTTP response code
+
+Scenario: User open a site from Test site
+
+Given You somewhere on site
+
+When You click to Error button on site
+
+Then You should see "404 Error . . ."
+
+IEEE 829
+Test case name: check 404 HTTP
+Test case identifier: REQ-UI-07
+Version: 1.0
+Reference: REQ-UI-07
+Execution: Automated
+Description: This test check click on Error button than navigated to the Error page and get http 404 message
+Precondition: Website available and working well
+Test Step: 1 Run REQ-UI-07.js
+Browser: latest chrome
+Input: click to Error button
+Output: check "404 Error" on Error page and get http 404 as well
+Expected result: The expected text and http message
+Test result: Pass or Failed
+
+-------------------------------------------
+Feature: UI Testing button
+
+After click UI Testing button navigated to the Home page
+
+Scenario: User open a site from Test site
+
+Given You somewhere on site 
+
+When You click Home page on site
+
+Then You should see "Welcome to the Docler Holding QA Department"
+
+IEEE 829
+Test case name: check Home button
+Test case identifier: REQ-UI-08
+Version: 1.0
+Reference: REQ-UI-08
+Execution: Automated
+Description: This test check click UI Testing button than navigated to the Home page
+Precondition: Website available and working well
+Test Step: 1 Run REQ-UI-08.js
+Browser: latest chrome
+Input: click to UI Testing page
+Output: "Welcome to the Docler Holding QA Department"
+Expected result: The expected output text
+Test result: Pass or Failed
+----------------------------
+Feature: Home page h1 tag visible
+
+On the Home page check <h1> tag visible and "Welcome to the Docler Holding QA Department"
+
+Scenario: User open Home page site on website
+
+Given Home page is opened
+
+When you check "Welcome to the Docler Holding QA Department" in the bigges letter on the page
+
+Then you can see it was written as a HTML <h1> element
+
+IEEE 829
+Test case name: Home page h1 tag visible
+Test case identifier: REQ-UI-09
+Version: 1.0
+Reference: REQ-UI-09
+Execution: Automated
+Description: This test check On the Home page <h1> tag visible and "Welcome to the Docler Holding QA Department"
+Precondition: Website available and working well
+Test Step: 1 Run REQ-UI-09.js
+Browser: latest chrome
+Input: User open Home page site on website
+Output: "Welcome to the Docler Holding QA Department" written as a HTML <h1> element
+Expected result: The expected output text and checked h1 element
+Test result: Pass or Failed
+
+------------------------------------
+Feature: Home page p tag visible
+
+On the Home page check <p> tag visible and "This site is dedicated to perform some exercises and demonstrate automated web testing."
+
+Scenario: User open Home page site on website
+
+Given Home page is opened 
+
+When you check "This site is dedicated to perform some exercises and demonstrate automated web testing." as a paragraph on the page
+
+Then you can check it was written as a HTML <p> element
+
+IEEE 829
+Test case name: Home page p tag visible
+Test case identifier: REQ-UI-10
+Version: 1.0
+Reference: REQ-UI-10
+Execution: Automated
+Description: This test check On the Home page <p> tag visible and "Welcome to the Docler Holding QA Department"
+Precondition: Website available and working well
+Test Step: 1 Run REQ-UI-10.js
+Browser: latest chrome
+Input: User open Home page site on website
+Output: "This site is dedicated to perform some exercises and demonstrate automated web testing." written as a HTML <p> element
+Expected result: The expected output text and checked p element
+Test result: Pass or Failed
+------------------------------------
+Feature: Form should be visible
+
+On the Form page, a form should be visible with one input box and one submit button
+
+Scenario: User open Form site from Test site
+
+Given Form page is opened
+
+When you check Form page you see one input box and one submit button
+
+IEEE 829
+Test case name: Form should be visible
+Test case identifier: REQ-UI-11
+Version: 1.0
+Reference: REQ-UI-11
+Execution: Automated
+Description: This test check On the Form page, a form should be visible with one input box and one submit button
+Precondition: Website available and working well
+Test Step: 1 Run REQ-UI-11.js
+Browser: latest chrome
+Input: orm page is opened
+Output: form should be visible with one input box and one submit button
+Expected result: Logo is the expected
+Test result: Pass or Failed
+-------------------------------
+Feature: type on Form page the input field
+
+On the Form page, if you type <value> the input field and submit the form, you should get redirect to the
+Hello page, and the following text should appear: <result>
+
+Scenario: User open Form site from Test site
+
+Given Form page is opened
+
+When you type <value> the input field and submit the form
+
+Then you check you should get redirect to the Hello page, and the following text should appear: <result>
+
+Examples:
+<value> | <result>
+============================
+John   | Hello John!
+Sophia | Hello Sophia!
+Charlie| Hello Charlie!
+Emily  | Hello Emily!
+
+IEEE 829
+Test case name: type on Form page the input field
+Test case identifier: REQ-UI-12
+Version: 1.0
+Reference: REQ-UI-12
+Execution: Automated
+Description: This test check On the Form page if you type <value> the input field and submit the form, you should get redirect to the Hello page, and the following text should appear: <result>
+Precondition: Website available and working well
+Test Step: 1 Run REQ-UI-12.js
+Browser: latest chrome
+Input: John, Sophia, Charlie, Emily
+Output: Hello John!, Hello Sophia!, Hello Charlie!, Hello Emily!
+Expected result: Given Output text should appear
+Test result: Pass or Failed
